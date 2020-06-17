@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>How's the weather</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="box">
+		<img id="topIcon" src="css/icon.png">
+		<h1> <%= todayDate %></h1>
+		<div id = "weatherInformation">
+		<img src="<%= cityImage %>">
+		<h2><%= cityName %></h2>
+		<h2><%= cityTemp %></h2>
+		<h2> <%= cityDesc %></h2>
+		</div>
+		<form method="post" action="/">
+			<input type="text" name="input" autocomplete="off">
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+		
+</body>
+</html>

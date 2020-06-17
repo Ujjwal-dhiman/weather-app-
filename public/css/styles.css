@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+body{
+	text-align: center;
+	position: relative;
+	background-image: linear-gradient(90deg, #A683E3 50%, #E4E9FD 50%);
+	height: 70vh;
+}
+.box{
+	font-size: 2vw;
+	font-family: arial,sans-serif;
+	line-height: 60px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	overflow: hidden;
+}
+#topIcon{
+	width: 200px;
+}
+h1{
+	padding: 50px 0;
+}
+#weatherInformation{
+	font-size: 3vh;
+}
+#weatherInformation img{
+	width: 100px;
+}
+#weatherInformation h2{
+}
+
+input[type=text]{
+	height: 20px;
+	border-radius: 20px;
+	border:1px solid black;	
+}
+input[type=text]:hover{
+box-shadow:2px 2px 3px black inset; 
+cursor: pointer;
+}
+button{
+	padding: 5px 10px;
+	border:none;
+	border-radius: 30px;
+	background-color: #A683E3
+}
